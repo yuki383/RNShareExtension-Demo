@@ -12,7 +12,7 @@ AppRegistry.registerComponent(appName, () => App);
 const Share = () => {
   return (
     <View style={{flex: 1, backgroundColor: 'yellowgreen'}}>
-      <Text>Hello Share Extension</Text>
+      <Text>Hello Share Extension on RN@0.63</Text>
     </View>
   );
 };
