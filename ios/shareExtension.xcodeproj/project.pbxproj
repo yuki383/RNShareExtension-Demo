@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A384158A62A34F3EF003785 /* libPods-shareExtension-MyShareEx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F09500E0799358D2D277316E /* libPods-shareExtension-MyShareEx.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -74,18 +75,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = shareExtension/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = shareExtension/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = shareExtension/main.m; sourceTree = "<group>"; };
+		28DDBE6A6FEE2CF434468A92 /* Pods-shareExtension-MyShareEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension-MyShareEx.release.xcconfig"; path = "Target Support Files/Pods-shareExtension-MyShareEx/Pods-shareExtension-MyShareEx.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* shareExtension-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shareExtension-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* shareExtension-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shareExtension-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		365743B324D01E6E0024164B /* MyShareEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyShareEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		365743B924D01E6E0024164B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		365743BB24D01E6E0024164B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365743C324D01EA60024164B /* MyShareEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShareEx.m; sourceTree = "<group>"; };
+		510B895E2E83700B9A57B4FE /* Pods-shareExtension-MyShareEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension-MyShareEx.debug.xcconfig"; path = "Target Support Files/Pods-shareExtension-MyShareEx/Pods-shareExtension-MyShareEx.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = shareExtension/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920AE01196CF291853BA329C /* Pods-shareExtension-shareExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension-shareExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-shareExtension-shareExtensionTests/Pods-shareExtension-shareExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
 		A73D6623F5213E78782B8867 /* Pods-shareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension.release.xcconfig"; path = "Target Support Files/Pods-shareExtension/Pods-shareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		D5B2C53165757B8DB1E88994 /* Pods-shareExtension-shareExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension-shareExtensionTests.debug.xcconfig"; path = "Target Support Files/Pods-shareExtension-shareExtensionTests/Pods-shareExtension-shareExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F09500E0799358D2D277316E /* libPods-shareExtension-MyShareEx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shareExtension-MyShareEx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E913972B31574447799D3B /* Pods-shareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareExtension.debug.xcconfig"; path = "Target Support Files/Pods-shareExtension/Pods-shareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A384158A62A34F3EF003785 /* libPods-shareExtension-MyShareEx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,7 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				0B32E30124374EF66F22F144 /* libPods-shareExtension.a */,
 				0F36FD6641BD6D81442298FE /* libPods-shareExtension-shareExtensionTests.a */,
+				F09500E0799358D2D277316E /* libPods-shareExtension-MyShareEx.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,6 +230,8 @@
 				A73D6623F5213E78782B8867 /* Pods-shareExtension.release.xcconfig */,
 				D5B2C53165757B8DB1E88994 /* Pods-shareExtension-shareExtensionTests.debug.xcconfig */,
 				920AE01196CF291853BA329C /* Pods-shareExtension-shareExtensionTests.release.xcconfig */,
+				510B895E2E83700B9A57B4FE /* Pods-shareExtension-MyShareEx.debug.xcconfig */,
+				28DDBE6A6FEE2CF434468A92 /* Pods-shareExtension-MyShareEx.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -315,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 365743C224D01E6E0024164B /* Build configuration list for PBXNativeTarget "MyShareEx" */;
 			buildPhases = (
+				EE6B7B99BB195D74B878D854 /* [CP] Check Pods Manifest.lock */,
 				365743AF24D01E6E0024164B /* Sources */,
 				365743B024D01E6E0024164B /* Frameworks */,
 				365743B124D01E6E0024164B /* Resources */,
+				D0BD4617C714DED426E0CF79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -525,6 +535,46 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-shareExtension-shareExtensionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BD4617C714DED426E0CF79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shareExtension-MyShareEx/Pods-shareExtension-MyShareEx-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shareExtension-MyShareEx/Pods-shareExtension-MyShareEx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6B7B99BB195D74B878D854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shareExtension-MyShareEx-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -841,6 +891,7 @@
 		};
 		365743C024D01E6E0024164B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510B895E2E83700B9A57B4FE /* Pods-shareExtension-MyShareEx.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -856,10 +907,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.shareExtension.MyShareEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -869,6 +917,7 @@
 		};
 		365743C124D01E6E0024164B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DDBE6A6FEE2CF434468A92 /* Pods-shareExtension-MyShareEx.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -884,10 +933,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.shareExtension.MyShareEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
